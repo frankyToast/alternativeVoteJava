@@ -1,7 +1,5 @@
 import java.util.*;
-/**
- * @author Franky Yang
- */
+
 public class Candidate{
     
     private String name;
@@ -14,26 +12,14 @@ public class Candidate{
         this.pos = p;
     }
 
-    /**
-     * 
-     * @param name description
-     */
     public void changeName(String name){
         this.name = name;
     }
 
-    /**
-     * 
-     * @return asldkfasl
-     */
     public String getName(){
         return name;
     }
 
-    /**
-     *WHAT METHOD DOES
-     * @return descrualdjla
-     */
     public int getNumVotes(){
         return candidateVotes.size();
     }
